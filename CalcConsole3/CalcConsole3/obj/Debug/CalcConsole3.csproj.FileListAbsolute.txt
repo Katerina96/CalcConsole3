@@ -1,0 +1,12 @@
+c:\users\admin\documents\visual studio 2015\Projects\CalcConsole3\CalcConsole3\bin\Debug\CalcConsole3.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\CalcConsole3\CalcConsole3\bin\Debug\CalcConsole3.exe
+c:\users\admin\documents\visual studio 2015\Projects\CalcConsole3\CalcConsole3\bin\Debug\CalcConsole3.pdb
+c:\users\admin\documents\visual studio 2015\Projects\CalcConsole3\CalcConsole3\obj\Debug\CalcConsole3.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\CalcConsole3\CalcConsole3\obj\Debug\CalcConsole3.exe
+c:\users\admin\documents\visual studio 2015\Projects\CalcConsole3\CalcConsole3\obj\Debug\CalcConsole3.pdb
+D:\Учёба\4 курс\епам\Katya_Calc2-master\CalcConsole3\CalcConsole3\bin\Debug\CalcConsole3.exe.config
+D:\Учёба\4 курс\епам\Katya_Calc2-master\CalcConsole3\CalcConsole3\obj\Debug\CalcConsole3.exe
+D:\Учёба\4 курс\епам\Katya_Calc2-master\CalcConsole3\CalcConsole3\obj\Debug\CalcConsole3.pdb
+D:\Учёба\4 курс\епам\Katya_Calc2-master\CalcConsole3\CalcConsole3\bin\Debug\CalcConsole3.exe
+D:\Учёба\4 курс\епам\Katya_Calc2-master\CalcConsole3\CalcConsole3\bin\Debug\CalcConsole3.pdb
+D:\Учёба\4 курс\епам\Katya_Calc2-master\CalcConsole3\CalcConsole3\obj\Debug\CalcConsole3.csprojResolveAssemblyReference.cache
