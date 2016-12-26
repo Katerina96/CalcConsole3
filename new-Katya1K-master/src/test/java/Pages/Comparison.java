@@ -22,7 +22,7 @@ public class Comparison extends AbstractPage{
 
     public void Comparison()
     {   driver.findElement(By.cssSelector("h3.catalog-nav_title > a")).click();
-        driver.findElement(By.linkText("Ñåðâåðû")).click();
+        driver.findElement(By.linkText("Ð¡ÐµÑ€Ð²ÐµÑ€Ñ‹")).click();
         driver.findElement(By.name("compareproductsids")).click();
         driver.findElement(By.xpath("(//input[@name='compareproductsids'])[2]")).click();
         driver.findElement(By.xpath("(//input[@name='compareproductsids'])[3]")).click();
