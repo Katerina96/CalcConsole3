@@ -7,8 +7,8 @@ import Steps.Steps;
 
 public class AutoTests {
     private Steps steps;
-    private final String USERNAME = "+375255444152  ";
-    private final String PASSWORD = "5444152Aa";
+    private final String USERNAME = "+375297570861  ";
+    private final String PASSWORD = "12345Rfnz";
     private final String searchworld = "AMD";
 
 
@@ -20,21 +20,21 @@ public class AutoTests {
         steps.initBrowser();
     }
 
-    //вход
+    //Р’С…РѕРґ РЅР° СЃР°Р№С‚
     @Test(description = "Login to 1k.by")
     public void logInSecond() {
         steps.logInSecond(USERNAME, PASSWORD);
         Assert.assertTrue(steps.isLoggedIn());
         System.out.println("Login to 1k.by");
     }
-    //выход
+    //Р’С‹С…РѕРґ
     @Test(description = "LogOut to 1k.by")
     public void logOutSecond(){
         steps.logOutSecond(USERNAME, PASSWORD);
         Assert.assertTrue(steps.isLoggedOut());
         System.out.println("LogOut to 1k.by");
     }
-    //изменение пароля
+    //РР·РјРµРЅРµРЅРёРµ РїР°СЂРѕР»СЏ
     @Test(description = "changePassorwd 1k.by")
     public void changePassorwd(){
         steps.changePassorwd(USERNAME, PASSWORD);
@@ -42,7 +42,7 @@ public class AutoTests {
         System.out.println("changePassorwd 1k.by");
     }
 
-    //поиск
+    //РџРѕРёСЃРє
     @Test(description = "Search 1k.by")
     public void SearchSecond(){
         steps.SearchSecond(searchworld);
@@ -50,21 +50,21 @@ public class AutoTests {
         System.out.println("Search 1k.by");
     }
 
-    //поиск продукта
+    //РџРѕРёСЃРє РїСЂРѕРґСѓРєС‚Р°
     @Test(description = "SearchProduct 1k.by")
     public void SearchProduct(){
         steps.SearchProduct();
         Assert.assertTrue(steps.isSearchProduct());
         System.out.println("SearchProduct 1k.by");
     }
-    //изменение настроек
+    //РР·РјРµРЅРµРЅРёРµ РЅР°СЃС‚СЂРѕРµРє
     @Test(description = "ChangeSettings 1k.by")
     public void ChangeSettings(){
         steps.ChangeSettings();
         Assert.assertTrue(steps.isChangeSettings());
         System.out.println("ChangeSettings 1k.by");
     }
-    //сравнение продуктов
+    //РЎСЂР°СЃРЅРµРЅРёРµ РїСЂРѕРґСѓРєС‚РѕРІ
     @Test(description = "Comparison 1k.by")
     public void Comparison(){
         steps.Comparison();
@@ -72,7 +72,7 @@ public class AutoTests {
         System.out.println("Comparison 1k.by");
     }
 
-    //добавить в избранное
+    //Р”РѕР±Р°РІРёС‚СЊ РІ РёР·Р±СЂР°РЅРЅС‹Рµ
     @Test(description = "add to Favorite 1k.by")
     public void addFavorite(){
         steps.SearchProduct();
@@ -80,7 +80,7 @@ public class AutoTests {
         System.out.println("add to Favorite 1k.by");
     }
 
-    //Обратная связь
+    //РћР±СЂР°С‚РЅР°СЏ СЃРІСЏР·СЊ
     @Test(description = "feedback 1k.by")
     public void feedback(){
         steps.SearchProduct();
@@ -88,7 +88,7 @@ public class AutoTests {
         System.out.println("feedback 1k.by");
     }
 
-    //Отзыв
+    //РћС‚Р·С‹РІ
     @Test(description = "feedback 1k.by")
     public void recall(){
         steps.SearchProduct();
