@@ -22,7 +22,7 @@ public class SearchProduct extends AbstractPage{
 
     public void SearchProduct()
     {
-        driver.findElement(By.linkText("Антивирусные программы")).click();
+        driver.findElement(By.linkText("РђРЅС‚РёРІРёСЂСѓСЃРЅС‹Рµ РїСЂРѕРіСЂР°РјРјС‹")).click();
         driver.findElement(By.id("pricemin")).sendKeys("100000");
         driver.findElement(By.id("pricemax")).sendKeys("1000000");
         driver.findElement(By.name("producers[]")).click();
@@ -33,7 +33,7 @@ public class SearchProduct extends AbstractPage{
 
     public boolean isSearchProduct(){
         boolean serInIsTrue=false;
-        if(driver.findElement(By.xpath(".//*[text()='Сравнить все цены']/..")).isDisplayed() ) serInIsTrue=true;
+        if(driver.findElement(By.xpath(".//*[text()='РЎСЂР°РІРЅРёС‚СЊ РІСЃРµ С†РµРЅС‹']/..")).isDisplayed() ) serInIsTrue=true;
         driver.quit();
         return  serInIsTrue;
     }
