@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends AbstractPage{
 
-    @FindBy(linkText = "Войти")
+    @FindBy(linkText = "Р’РѕР№С‚Рё")
     public WebElement signInentrance;
 
     @FindBy(className = "social-sign_fb")
@@ -54,7 +54,7 @@ public class LoginPage extends AbstractPage{
         signInPassword.clear();
         signInPassword.sendKeys(password);
         signInLoginbutton.click();
-        driver.findElement(By.linkText("Выход")).click();
+        driver.findElement(By.linkText("Р’С‹С…РѕРґ")).click();
     }
 
     public void changePassorwd(String username, String password)
@@ -67,7 +67,7 @@ public class LoginPage extends AbstractPage{
         signInPassword.sendKeys(password);
         signInLoginbutton.click();
         driver.findElement(By.linkText("Befirst.by ()")).click();
-        driver.findElement(By.linkText("Мои данные")).click();
+        driver.findElement(By.linkText("РњРѕРё РґР°РЅРЅС‹Рµ")).click();
         driver.findElement(By.name("password")).sendKeys(password);
         driver.findElement(By.name("passwordconfirm")).sendKeys(password);
         driver.findElement(By.id("submit")).click();
@@ -75,21 +75,21 @@ public class LoginPage extends AbstractPage{
 
     public boolean isLogOut(){
         boolean logOutIsTrue=false;
-        if(driver.findElement(By.linkText("Войти")).isDisplayed()) logOutIsTrue=true;
+        if(driver.findElement(By.linkText("Р’РѕР№С‚Рё")).isDisplayed()) logOutIsTrue=true;
         driver.quit();
         return  logOutIsTrue;
     }
 
     public boolean isLogIn(){
         boolean logInIsTrue=false;
-        if(driver.findElement(By.linkText("Выход")).isDisplayed()) logInIsTrue=true;
+        if(driver.findElement(By.linkText("Р’С‹С…РѕРґ")).isDisplayed()) logInIsTrue=true;
         driver.quit();
         return  logInIsTrue;
     }
 
     public boolean ischangePassorwd(){
         boolean logOutIsTrue=false;
-        if(driver.findElement(By.xpath(".//*[text()='Данные сохранены!']/..")).isDisplayed()) logOutIsTrue=true;
+        if(driver.findElement(By.xpath(".//*[text()='Р”Р°РЅРЅС‹Рµ СЃРѕС…СЂР°РЅРµРЅС‹!']/..")).isDisplayed()) logOutIsTrue=true;
         driver.quit();
         return  logOutIsTrue;
     }
