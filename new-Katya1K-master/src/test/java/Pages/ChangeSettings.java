@@ -22,9 +22,9 @@ public class ChangeSettings extends AbstractPage{
 
     public void ChangeSettings()
     {
-        driver.findElement(By.name("regionid")).sendKeys("Могилевская обл.");
+        driver.findElement(By.name("regionid")).sendKeys("РњРѕРіРёР»С‘РІСЃРєР°СЏ РѕР±Р».");
         driver.findElement(By.name("deliveriestypeids[]")).click();
-        driver.findElement(By.name("cityid")).sendKeys("Осиповичи");
+        driver.findElement(By.name("cityid")).sendKeys("РћСЃРёРїРѕРІРёС‡Рё");
         driver.findElement(By.name("submit")).click();
 
     }
