@@ -29,7 +29,7 @@ public class Search extends AbstractPage{
 
     public boolean isSearch(){
         boolean serInIsTrue=false;
-        if(driver.findElement(By.xpath(".//*[text()='Показывать:']/..")).isDisplayed() ) serInIsTrue=true;
+        if(driver.findElement(By.xpath(".//*[text()='РџРѕРєР°Р·С‹РІР°С‚СЊ:']/..")).isDisplayed() ) serInIsTrue=true;
         driver.quit();
         return  serInIsTrue;
     }
